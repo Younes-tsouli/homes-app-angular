@@ -1,0 +1,11 @@
+:root {
+      --primary-yellow : rgb(237, 219, 244);
+}
+.header-component {
+      width: 100vw;
+      background-color: rgb(237, 219, 244);
+      padding: 10px 15px;
+}
+img {
+      width: 100px;
+}

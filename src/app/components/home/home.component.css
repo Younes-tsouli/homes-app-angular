@@ -1,0 +1,9 @@
+section form {
+      display: flex;
+      gap:0rem;
+}
+img {
+      width: 50px;
+      height: auto;
+      margin-bottom: 10px;
+}

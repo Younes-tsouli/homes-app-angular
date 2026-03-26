@@ -1,0 +1,11 @@
+<section>
+      <form action="submit" aria-required="false">
+            <input type="text" name="home-research" placeholder="Filter by city">
+            <button class="search-btn">Search</button>
+      </form>
+</section>
+<section>
+      @for (housingLocation of housingLocationList; track housingLocation.id) {
+            <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
+      }    
+</section>
