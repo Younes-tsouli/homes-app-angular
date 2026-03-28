@@ -26,7 +26,9 @@ export class DetailsComponent {
   constructor() {
     //used to make changes
     const id = Number(this.route.snapshot.params["id"]); // we get the id of the page
-    this.housingLocation = this.housingService.getHousingLocationById(id)
+    this.housingService.getHousingLocationById(id).then(housingLocation => {
+      this.housingLocation = housingLocation
+    })
   }
 
   submiForm() {
